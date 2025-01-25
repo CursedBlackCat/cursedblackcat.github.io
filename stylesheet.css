@@ -1,9 +1,4 @@
-html{
-    height: 100%;
-}
-
 body {
-    height: 95%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: 0 0, 0 0,0 0, 0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0;
@@ -44,11 +39,22 @@ body {
     text-align: center;
 }
 
-#showcase {
+.flexbox {
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 10px;
+}
+
+a.button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+    font-family: "Oxygen", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #maimai-rating {
