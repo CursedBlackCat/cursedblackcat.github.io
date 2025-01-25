@@ -61,7 +61,7 @@ a.button {
     background-image: url("images/maimai/rating_base_bronze.png");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 148px;
+    min-width: 148px;
     height: 43px;
 }
 
