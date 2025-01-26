@@ -43,6 +43,10 @@ body {
     text-align: center;
 }
 
+p {
+    font-size: 26px;
+}
+
 .flexbox {
     display: flex;
     justify-content: left;
