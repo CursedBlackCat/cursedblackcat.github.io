@@ -75,12 +75,28 @@ a:visited {
     color: purple;
 }
 
+#trophy-case {
+    display: grid;
+    column-gap: 20px;
+    justify-content: left;
+}
+
+.trophy-text {
+    font-size: 14px;
+    text-align: center;
+}
+
+.trophy-cell {
+    display: flex;
+    justify-content: center;
+}
+
 #maimai-rating {
     background-image: url("images/maimai/rating_base_bronze.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 148px;
-    height: 43px;
+    max-height: 43px;
 }
 
 #maimai-rating-number{
