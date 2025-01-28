@@ -67,6 +67,14 @@ a.button {
     font-style: normal;
 }
 
+a:link{
+    color: darkblue;
+}
+
+a:visited {
+    color: purple;
+}
+
 #maimai-rating {
     background-image: url("images/maimai/rating_base_bronze.png");
     background-size: cover;
