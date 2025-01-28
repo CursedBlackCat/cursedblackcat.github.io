@@ -4,13 +4,15 @@ html {
 
 body {
     background-size: 100% 100%;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 0 0, 0 0,0 0, 0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0;
     background-image: radial-gradient(18% 28% at 24% 50%, #B04FFFCC 7%, #073AFF00 100%),radial-gradient(18% 28% at 18% 71%, #8400fe59 6%, #073AFF00 100%),radial-gradient(70% 53% at 36% 76%, #C573FFFF 0%, #073AFF00 100%),radial-gradient(42% 53% at 15% 94%, #D06DFF9C 7%, #073AFF00 100%),radial-gradient(42% 53% at 34% 72%, #4EB5FFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 35% 87%, #D06DFF9C 7%, #073AFF00 100%),radial-gradient(31% 43% at 7% 98%, #BF69FFBA 24%, #073AFF00 100%),radial-gradient(21% 37% at 72% 23%, #B04FFFF5 24%, #073AFF00 100%),radial-gradient(35% 56% at 91% 74%, #8A4FFFF5 9%, #073AFF00 100%),radial-gradient(74% 86% at 67% 38%, #BF69FFBA 24%, #073AFF00 100%),linear-gradient(125deg, #4EB5FFFF 1%, #4C00FCFF 100%);
+    padding: 20px 20px 20px 20px;
 }
 
 #header {
-    margin: 20px 40px 20px 40px;
+    margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
@@ -20,7 +22,7 @@ body {
 }
 
 #body {
-    margin: 20px 40px 20px 40px;
+    margin-top: 20px;
     padding: 30px;
     border-radius: 10px;
     min-height: 300px;
