@@ -76,9 +76,9 @@ a:visited {
 }
 
 #trophy-case {
-    display: grid;
-    column-gap: 20px;
+    display: flex;
     justify-content: left;
+    gap: 20px;
 }
 
 .trophy-text {
@@ -89,6 +89,11 @@ a:visited {
 .trophy-cell {
     display: flex;
     justify-content: center;
+}
+
+.trophy-case-item {
+    display: grid;
+    column-gap: 5px;
 }
 
 #maimai-rating {
