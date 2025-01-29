@@ -1,6 +1,6 @@
 const dxRating = 12857;
 
-window.onload = function() {
+window.addEventListener("load",function() {
     let ratingPlate = document.getElementById("maimai-rating-plate");
     let ratingNumber = document.getElementById("maimai-rating-number");
     let ratingColour = document.getElementById("maimai-rating-colour");
@@ -28,4 +28,4 @@ window.onload = function() {
     } else {
         ratingPlate.style.backgroundImage = "url(\"images/maimai/rating_base_blue.png\")"
     }
-};
+}, false);
