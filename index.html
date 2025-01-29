@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <script src="time.js"></script>
+    <script src="dxrating.js"></script>
     <script src="https://kit.fontawesome.com/104cef67d6.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -23,7 +24,7 @@
     <p class="oxygen-light">Hi, I usually go by Cat, unless there is already another "Cat" present, in which case I
         sometimes defer to Cursed. I go by Purr in FFXIV communities. I currently mainly play FFXIV and Maimai
         (international version). I speak fluent English and Cantonese, as well as intermediate Japanese.  My current
-        time zone is KST (UTC+9), so it is currently <span id="current-time">xx:xx</span> for me.</p>
+        time zone is KST (UTC+9), so it is currently <span id="current-time">xx:xx</span> for me. <!-- Time is set dynamically in time.js -->
     <h1 class="oxygen-bold">Social Links</h1>
     <div class="flexbox">
         <a href="https://bsky.app/profile/cursedblackcat.com" class="button" style="background-color:deepskyblue; color:black;"><i class="fa-brands fa-bluesky"></i> Bluesky</a>
@@ -34,10 +35,10 @@
     <h1 class="oxygen-bold">Trophy Case</h1>
     <div id="trophy-case">
         <div class="trophy-case-item">
-            <div id="maimai-rating" title="This is my maimai DX rating.">
-                <div id="maimai-rating-number" class="oxygen-regular">12857</div>
+            <div id="maimai-rating-plate" title="This is my maimai DX rating.">
+                <div id="maimai-rating-number" class="oxygen-regular">0</div> <!-- This is set dynamically in dxrating.js -->
             </div>
-            <p class="oxygen-regular trophy-text">maimai DX PRiSM<br />Bronze Rating</p>
+            <p class="oxygen-regular trophy-text">maimai DX PRiSM<br /><span id="maimai-rating-colour"></span> Rating</p>
         </div>
         <div class="trophy-case-item">
             <div class="trophy-cell"><a href="https://www.youtube.com/watch?v=gXs-A_bB578"><img src="images/maimai/course_rank_07.png" style="max-height:43px;" alt="A maimai DX rating number" title="I successfully cleared the 7th-dan course in maimai DX PRiSM."/></a></div>

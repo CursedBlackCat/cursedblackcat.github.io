@@ -96,8 +96,7 @@ a:visited {
     column-gap: 5px;
 }
 
-#maimai-rating {
-    background-image: url("images/maimai/rating_base_bronze.png");
+#maimai-rating-plate {
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 148px;
@@ -105,7 +104,7 @@ a:visited {
 }
 
 #maimai-rating-number{
-    font-size: 25px;
+    font-size: 23px;
     color: white;
     text-align: right;
     margin-right: 8px;
