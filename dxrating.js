@@ -10,6 +10,9 @@ window.addEventListener("load",function() {
     if (dxRating >= 15000){
         ratingPlate.style.backgroundImage = "url(\"images/maimai/rating_base_rainbow.png\")"
         ratingColour.innerText = "Rainbow";
+    } else if (dxRating >= 14500) {
+        ratingPlate.style.backgroundImage = "url(\"images/maimai/rating_base_platinum.png\")"
+        ratingColour.innerText = "Platinum";
     } else if (dxRating >= 14000) {
         ratingPlate.style.backgroundImage = "url(\"images/maimai/rating_base_gold.png\")"
         ratingColour.innerText = "Gold";
@@ -22,7 +25,7 @@ window.addEventListener("load",function() {
     } else if (dxRating >= 10000) {
         ratingPlate.style.backgroundImage = "url(\"images/maimai/rating_base_purple.png\")"
         ratingColour.innerText = "Purple";
-    } else if (dxRating >= 8000) {
+    } else if (dxRating >= 7000) {
         ratingPlate.style.backgroundImage = "url(\"images/maimai/rating_base_red.png\")"
         ratingColour.innerText = "Red";
     } else {
