@@ -77,6 +77,7 @@ a:visited {
 
 #trophy-case {
     display: flex;
+    flex-wrap: wrap;
     justify-content: left;
     gap: 20px;
 }
