@@ -1,4 +1,4 @@
-const dxRating = 14474;
+const dxRating = 14501;
 
 window.addEventListener("load",function() {
     let ratingPlate = document.getElementById("maimai-rating-plate");
