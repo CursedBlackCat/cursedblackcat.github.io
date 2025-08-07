@@ -97,14 +97,14 @@ a:visited {
     column-gap: 5px;
 }
 
-#maimai-rating-plate {
+#maimai-peak-rating-plate, #maimai-current-rating-plate {
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 148px;
     max-height: 43px;
 }
 
-#maimai-rating-number{
+#maimai-peak-rating-number, #maimai-current-rating-number{
     font-size: 23px;
     color: white;
     text-align: right;
