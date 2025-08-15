@@ -1,5 +1,5 @@
+const currentDxRating = 14529;
 const peakDxRating = 14644;
-const currentDxRating = 14485;
 
 window.addEventListener("load",function() {
     let peakRatingPlate = document.getElementById("maimai-peak-rating-plate");
