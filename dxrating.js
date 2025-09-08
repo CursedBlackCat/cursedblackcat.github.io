@@ -1,4 +1,4 @@
-const currentDxRating = 14566;
+const currentDxRating = 14592;
 const peakDxRating = 14644;
 
 window.addEventListener("load",function() {
