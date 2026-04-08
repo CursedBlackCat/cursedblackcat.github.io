@@ -1,5 +1,5 @@
-const currentDxRating = 15056;
-const peakDxRating = 15056;
+const currentDxRating = 15060;
+const peakDxRating = 15060;
 
 const showOldPeakRating = false; // Remember to uncomment the HTML elements if setting this to true
 
